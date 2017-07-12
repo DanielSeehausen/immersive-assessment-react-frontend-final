@@ -15,10 +15,6 @@ When you clone down this project, the component `<AccountContainer />` will have
 - As a user, you should be able to see a table of transactions.
 - As a user, you should be able select a radio button that toggles the active category.
 - You should only see transactions that match the active category or *all transactions* if "All" is selected
-  - **Bonus - only after you have successfully completed the above, implement the following:**
-  - Allow multiple radio buttons to be selected. Transactions that match any of the selected radio buttons should be displayed. If the *all transactions* radio button is selected, all previously selected radio buttons should be marked as unselected.
-  - Finally, if a user selects every radio button (excluding the *all transactions* button), the *all transactions* radio button should become selected and all others unselected
-
 ![example project](https://s3-us-west-2.amazonaws.com/curriculum-content/immersive_assessments/react-final-challenge.gif)
 
 Use the above gif as an example of how the app should function.
@@ -54,3 +50,10 @@ We’ll be evaluating your code based on the following criteria:
 Good luck!
 
 [Backend Rails API](https://github.com/learn-co-curriculum/immersive-assessment-react-backend)
+
+**Bonus - only after you have successfully completed the above, make a new branch and implement the following:**
+- Allow users to select multiple categories. Transactions that match any of the selected categories should be displayed.
+- Categories should be able to be toggled on and off
+- If *all* is selected, all other selected categories should be marked as unselected
+- Finally, if a user selects every category (excluding *all*), the *all* option should become selected and all others unselected
+- **Note**: *before starting on this - quickly lookup if a radio button is the appropriate type of element for this bonus functionality*

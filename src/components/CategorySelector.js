@@ -2,7 +2,7 @@ import React from 'react'
 import CategoryField from './CategoryField'
 import categories from '../categories'
 
-const CategorySelector = ({activeCategories, handleChange}) => {
+const CategorySelector = ({activeCategories, handleClick}) => {
 
   const categoryFields = categories.map((category, i) => {
       return (
@@ -10,7 +10,7 @@ const CategorySelector = ({activeCategories, handleChange}) => {
           key={ i }
           checked={ activeCategories.has(category) }
           category={ category }
-          handleChange={ handleChange }
+          handleClick={ handleClick }
         />
       )
     }
