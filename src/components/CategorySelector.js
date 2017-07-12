@@ -2,20 +2,18 @@ import React from 'react'
 import CategoryField from './CategoryField'
 import categories from '../categories'
 
-const CategorySelector = ({activeCategories, handleClick}) => {
+const CategorySelector = (props) => {
 
-  const categoryFields = categories.map((category, i) => {
+  const categoryFields = categories.map((category, idx) => {
       return (
         <CategoryField
-          key={ i }
-          checked={ activeCategories.has(category) }
-          category={ category }
-          handleClick={ handleClick }
+          key={ idx }
+          checked={ }
+          category={ }
         />
       )
     }
   )
-
 
   return (
     <div className="sixteen wide column">

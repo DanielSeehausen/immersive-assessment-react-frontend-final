@@ -1,15 +1,13 @@
 import React from 'react'
 
-const CategoryField = ({checked, category, handleClick}) => {
+const CategoryField = ({checked, category}) => {
   return (
     <div className=" four wide field">
       <div className="ui radio checkbox">
         <input
           type="radio"
-          name={ category }
-          checked={ checked }
-          onClick={ handleClick }
-          readOnly={ true }
+          name={  }
+          checked={  }
         />
         <label>{ category }</label>
       </div>

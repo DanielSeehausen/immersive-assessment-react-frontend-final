@@ -19,7 +19,7 @@ When you clone down this project, the component `<AccountContainer />` will have
 
 Use the above gif as an example of how the app should function.
 
-We’ve provided some starter code you can use to guide you, but feel free to create or remove components as you see fit.
+Most of the starter code has been gutted from this application. You will need to pre-plan your work before beginning to write. Make sure to look for clues in the import statements and props (wherever they have not been removed!). Create or remove components as you see fit.
 
 ## Setup
 After cloning down the project
@@ -31,10 +31,11 @@ After cloning down the project
 
 You can approach this any way you would like but below is a reasonable approach to this challenge. If you are not sure where or how to begin, follow the steps here.
 
-1) Get the list of Transactions to display on the page given the default state data
-2) After that is working, replace that data with the JSON you fetch from this url [https://boiling-brook-94902.herokuapp.com/transactions](https://boiling-brook-94902.herokuapp.com/transactions). It will be in the same format as the  default data.
-3) Now that you are using the real data, ensure that the user selecting a radio button changes the state of the `activeCategory`.
-4) Figure out how to render only the transactions in which the category matches the active category, or if the active category is `'All'`, render everything.
+1) Familiarize yourself with the code base and map out your data flow before writing. Consider where your transaction data should reside, where you should filter it, and which props need to be passed to which children.
+2) Get the list of Transactions to display on the page given the default state data
+3) After that is working, replace that data with the JSON you fetch from this url [https://boiling-brook-94902.herokuapp.com/transactions](https://boiling-brook-94902.herokuapp.com/transactions). It will be in the same format as the  default data.
+4) Now that you are using the real data, ensure that the user selecting a radio button changes the state of the `activeCategory`.
+5) Figure out how to render only the transactions in which the category matches the active category, or if the active category is `'All'`, render everything.
 
 ## Criteria
 
@@ -56,4 +57,4 @@ Good luck!
 - Categories should be able to be toggled on and off
 - If *all* is selected, all other selected categories should be marked as unselected
 - Finally, if a user selects every category (excluding *all*), the *all* option should become selected and all others unselected
-- **Note**: *before starting on this - quickly lookup if a radio button is the appropriate type of element for this bonus functionality*
+- **Note**: *before starting on this - quickly research whether a radio button is the appropriate type of element for this bonus functionality*
