@@ -1,19 +1,16 @@
 import React from 'react'
 
-const CategoryField = (props) => {
-  const { category, checked }  = props
-
+const CategoryField = ({checked, category, handleChange}) => {
   return (
     <div className=" four wide field">
       <div className="ui radio checkbox">
-
         <input
           type="radio"
-          name="category"
+          name={ category }
           checked={ checked }
+          onChange={ handleChange }
         />
         <label>{ category }</label>
-
       </div>
     </div>
   )

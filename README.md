@@ -15,7 +15,9 @@ When you clone down this project, the component `<AccountContainer />` will have
 - As a user, you should be able to see a table of transactions.
 - As a user, you should be able select a radio button that toggles the active category.
 - You should only see transactions that match the active category or *all transactions* if "All" is selected
-
+  - **Bonus - only after you have successfully completed the above, implement the following:**
+  - Allow multiple radio buttons to be selected. Transactions that match any of the selected radio buttons should be displayed. If the *all transactions* radio button is selected, all previously selected radio buttons should be marked as unselected.
+  - Finally, if a user selects every radio button (excluding the *all transactions* button), the *all transactions* radio button should become selected and all others unselected
 
 ![example project](https://s3-us-west-2.amazonaws.com/curriculum-content/immersive_assessments/react-final-challenge.gif)
 
